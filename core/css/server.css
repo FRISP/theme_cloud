@@ -1,0 +1,9 @@
+body {
+    background-image: url('../background.jpg');
+    background-color: #006835;
+}
+
+#header .logo-icon {
+    background-image: url('../img/logo.svg');
+    height: calc(100% - 2px);
+}
