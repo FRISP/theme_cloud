@@ -2,11 +2,11 @@
 
 class OC_Theme {
     public function getBaseUrl() {
-        return 'https://nextcloud.com';
+        return 'https://' . $_SERVER['HTTP_X_FORWARDED_HOST'];
     }
 
     public function getTitle() {
-        return 'FRISP Cloud';
+        return 'Lights and Paws';
     }
 
     public function getName() {
@@ -18,11 +18,11 @@ class OC_Theme {
     }
 
     public function getEntity() {
-        return 'Fabian Damken';
+        return 'Stefanie Blümer';
     }
 
     public function getSlogan() {
-        return 'Elevate Your Digital Life';
+        return 'Enlighten Your Favorite Paws';
     }
 
     public function getColorPrimary() {
