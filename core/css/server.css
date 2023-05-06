@@ -12,3 +12,7 @@ body {
     height: calc(100% - 2px);
     margin: 0;
 }
+
+footer p:nth-child(2) {
+    display: none;
+}
