@@ -6,7 +6,7 @@ class OC_Theme {
     }
 
     public function getTitle() {
-        return 'Lights and Paws';
+        return 'Lights and Pause';
     }
 
     public function getName() {
@@ -22,7 +22,7 @@ class OC_Theme {
     }
 
     public function getSlogan() {
-        return 'Enlighten Your Favorite Paws';
+        return '';
     }
 
     public function getColorPrimary() {
